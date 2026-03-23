@@ -37,8 +37,10 @@ The tool has three tabs.
 
 ## File formats
 
-**JSON** — missions are saved as plain JSON. Open and save via File or Ctrl+S. The format is stable and version-controlled — suitable for committing alongside mission source code.
-**Rust** — each mission can be exported as a .rs file via File > Export Rust. The output is a self-contained module with typed constants for every bit field, value name, and action — no runtime dependency on the designer. Intended to be dropped directly into a planner crate.
+**JSON** missions are saved as plain JSON. Open and save via File or Ctrl+S. The format is stable and version-controlled — suitable for committing alongside mission source code.
+
+**Rust** each mission can be exported as a .rs file via File > Export Rust. The output is a self-contained module with typed constants for every bit field, value name, and action — no runtime dependency on the designer. Intended to be dropped directly into a planner crate.
+
 ---
 
 ## Building
