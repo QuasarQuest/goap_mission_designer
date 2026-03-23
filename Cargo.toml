@@ -1,0 +1,19 @@
+[package]
+name    = "goap_mission_designer"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+egui_extras = { version = "0.33.3", features = [] }
+eframe = { version = "0.33.3", features = [] }
+egui   = "0.33.3"
+serde  = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.149"
+rfd    = "0.17.2"
+uuid = { version = "1.21.0", features = ["v4"] }
+regex = "1.12.3"
+
+[profile.release]
+opt-level = 3
+lto = true
+strip = true
